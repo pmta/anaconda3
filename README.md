@@ -1,4 +1,4 @@
-# anaconda3
+# Anaconda distribution
 
 Container with Anaconda Distribution. 
 
@@ -6,9 +6,10 @@ Anaconda® is a package manager, an environment manager, a Python/R data
 science distribution, and a collection of open source packages.
 
 https://www.anaconda.com/
+
 https://www.anaconda.com/distribution/
 
-
+## Container layout
 Anaconda is installed in /home/$user/.local/ 
 
 The installation has standalone install of python3 with various libraries 
@@ -19,15 +20,15 @@ installing additional packges.
 See installed binaries in /home/$user/.local/bin/.
 
 
-In addition to base Anaconda installation package "keras" is install as example.
+In addition to base Anaconda installation, package "keras" is install as example.
 
-Image also contains example jupyter notebook "RecurrentNetworks.ipynb" in 
+Image also contains example Jupyter notebook "RecurrentNetworks.ipynb" in 
 folder /home/$user/notebooks for testing.
 
 
 ## Running the container
 
-By default a jupyter environment is started:
+By default a Jupyter environment is started:
 ```
 [i7 ~]$ docker run pmta/anaconda3 
 [I 16:54:49.661 NotebookApp] Writing notebook server cookie secret to /home/anaconda/.local/share/jupyter/runtime/notebook_cookie_secret
@@ -49,12 +50,13 @@ By default a jupyter environment is started:
 
 ```
 Now the Jupyter environment can be opened in browser by connecting to provided url.
+
 (http://172.17.0.2:8889/?token=cbfbf9ff2092188bfb98018444fe46a9fe69ba537a611ec5 in above example)
 
 
 
 Alternatively container can be run with a specific binary, for example 
-interactive python iPython :
+interactive python iPython:
 
 ```
 [i7 ~]$ docker run -it anaconda3 ipython3
