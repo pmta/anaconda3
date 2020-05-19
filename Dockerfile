@@ -5,7 +5,7 @@ ENV group=anaconda
 ENV UID=1234
 ENV GID=1234
 
-ENV ANACONDAURL=https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
+ENV ANACONDAURL=https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
 ENV JUPYTERPORT=8889
 
 
