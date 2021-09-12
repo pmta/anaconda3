@@ -25,7 +25,6 @@ RUN ln -s /home/${user}/.local/bin /usr/local/bin
 RUN mkdir /home/${user}/notebooks
 
 # Include example notebook
-COPY RecurrentNetworks.ipynb /home/${user}/notebooks
 RUN chown -R ${user}:${group} /home/${user}
 
 # Install anaconda

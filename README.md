@@ -20,10 +20,7 @@ installing additional packges.
 See installed binaries in /home/$user/.local/bin/.
 
 
-In addition to base Anaconda installation, package "keras" is install as example.
-
-Image also contains example Jupyter notebook "RecurrentNetworks.ipynb" in 
-folder /home/$user/notebooks for testing.
+In addition to base Anaconda installation, package "keras" is installed as an example.
 
 
 ## Running the container
@@ -59,7 +56,7 @@ Alternatively container can be run with a specific binary, for example
 interactive python iPython:
 
 ```
-[i7 ~]$ docker run -it anaconda3 ipython3
+[i7 ~]$ docker run -it pmta/anaconda3 ipython3
 Python 3.7.3 (default, Mar 27 2019, 22:11:17) 
 Type 'copyright', 'credits' or 'license' for more information
 IPython 7.6.1 -- An enhanced Interactive Python. Type '?' for help.
