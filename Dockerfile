@@ -1,11 +1,11 @@
-FROM registry.fedoraproject.org/fedora-minimal:32
+FROM registry.fedoraproject.org/fedora-minimal:34
 
 ENV user=anaconda
 ENV group=anaconda
 ENV UID=1234
 ENV GID=1234
 
-ENV ANACONDAURL=https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+ENV ANACONDAURL=https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
 ENV JUPYTERPORT=8889
 
 
